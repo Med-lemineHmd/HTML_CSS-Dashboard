@@ -78,11 +78,29 @@
 .bg-blue {
   background-color: var(--blue-color);
 }
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
 .c-black {
   color: #000;
 }
 .c-grey {
   color: var(--grey-color);
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-red {
+  color: var(--red-color);
 }
 .c-white {
   color: #fff;
@@ -101,6 +119,9 @@
   .txt-c-mobile {
     text-align: center;
   }
+}
+.fw-bold {
+  font-weight: bold;
 }
 .fs-14 {
   font-size: 14px;
@@ -129,6 +150,11 @@
 }
 /* End width */
 /* Start Components */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .between-flex {
   display: flex;
   align-items: center;

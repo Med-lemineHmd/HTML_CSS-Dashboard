@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:wght@400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -93,7 +93,7 @@
         <!-- Start head ...................................................-->
         <div class="head bg-white p-15 between-flex">
           <div class="search p-relative">
-            <input class="p-10" type="search" placeholder="Type A Keyword" />
+            <input class="p-10" type="search" placeholder="Search" />
           </div>
           <div class="icons d-flex align-center">
             <span class="notification p-relative">
@@ -105,7 +105,39 @@
         <!-- /End head -->
         <h1 class="p-relative">Dashboard</h1>
         <div class="wrapper d-grid gap-20">
-          <div class="welcome bg-white b-rad-10 txt-c-mobile block-mobile"><h2>welcome</h2></div>
+          <div class="welcome bg-white b-rad-10 txt-c-mobile block-mobile">
+            <div class="intro p-20 d-flex space-between bg-eee">
+              <div>
+                <h2 class="m-0">Welcome</h2>
+                <p class="c-grey mt-5">MO lemine</p>
+              </div>
+              <img
+                class="hide-mobile"
+                src="./images/welcome.svg"
+                alt="welcome"
+              />
+            </div>
+            <!-- /intro -->
+            <img src="./images/avatar.png" alt="avatar" class="avatar" />
+            <div class="body txt-c d-flex p-20 mt-20 mb-20 block-mobile">
+              <div>
+                MO lemine
+                <span class="d-block c-grey fs-14 mt-10">Developer</span>
+              </div>
+              <div>
+                25 <span class="d-block c-grey fs-14 mt-10">Projects</span>
+              </div>
+              <div>
+                $9000 <span class="d-block c-grey fs-14 mt-10">Earned</span>
+              </div>
+            </div>
+            <!-- /body -->
+            <a
+              href="profile.html"
+              class="visit d-block fs-14 b-rad-6 bg-blue c-white w-fit btn-shape"
+              >Profile</a
+            >
+          </div>
         </div>
       </div>
       <!-- /Content -->

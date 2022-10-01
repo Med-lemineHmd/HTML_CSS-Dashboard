@@ -161,4 +161,17 @@ ul {
   background-color: #000;
   width: 50px;
 }
+/* Start Wrapper */
+.wrapper {
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  margin: 0 20px;
+}
+@media (max-width: 767px) {
+  .wrapper {
+    grid-template-columns: minmax(200px, 1fr);
+    margin: 0 10px;
+    gap: 10px;
+  }
+}
+/* End Wrapper */
 /* End Content */

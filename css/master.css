@@ -16,8 +16,8 @@
 }
 body {
   /* font-family: "Comfortaa", cursive; */
-  /* font-family: "Montserrat", sans-serif; */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   margin: 0;
 }
 a {
@@ -219,4 +219,18 @@ ul {
   }
 }
 /* End welcome widget */
+/* Start Quick Draft Widget .........*/
+.quick-draft textarea {
+  resize: none;
+  min-height: 180px;
+}
+.quick-draft .save {
+  margin-left: auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.quick-draft .save:hover {
+  background-color: var(--blue-alt-color);
+}
+/* End Quick Draft Widget */
 /* End Content */

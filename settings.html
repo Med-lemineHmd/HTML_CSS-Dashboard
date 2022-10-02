@@ -29,7 +29,10 @@
         <h3 class="p-relative txt-c mt-0">MO</h3>
         <ul>
           <li>
-            <a href="index.html" class="d-flex align-center fs-14 c-black b-rad-6 p-10">
+            <a
+              href="index.html"
+              class="d-flex align-center fs-14 c-black b-rad-6 p-10"
+            >
               <i class="fa-regular fa-chart-bar fa-fw"></i>
               <span class="fs-14 hide-mobile">Dashboard</span>
             </a>
@@ -113,14 +116,16 @@
             </label> -->
           <!-- Start Settings Box ................................-->
           <div class="p-20 bg-white b-rad-10">
-            <h2 class="mt-0 mb-10">Cite Control</h2>
+            <h2 class="mt-0 mb-10">Site Control</h2>
             <p class="mt-0 mb-20 c-grey fs-15">
               Control The Website If There Is Maintenance
             </p>
             <div class="mb-15 between-flex">
               <div>
                 <span>Website Control</span>
-                <p class="c-grey mt-5 mb-0 fs-13">Open/Close Website And Type The Reason</p>
+                <p class="c-grey mt-5 mb-0 fs-13">
+                  Open/Close Website And Type The Reason
+                </p>
               </div>
               <div>
                 <label>
@@ -129,7 +134,86 @@
                 </label>
               </div>
             </div>
-            <textarea class="close-message b-none p-10 b-rad-6 d-block w-full" placeholder="Close Message Content"></textarea>
+            <textarea
+              class="close-message b-none p-10 b-rad-6 d-block w-full"
+              placeholder="Close Message Content"
+            ></textarea>
+          </div>
+          <!-- /End Settings Box -->
+          <!-- Start Settings Box ................................-->
+          <div class="p-20 bg-white b-rad-10">
+            <h2 class="mt-0 mb-10">General Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              General Information About Your Account
+            </p>
+            <div class="mb-15">
+              <label class="fs-14 c-grey d-block mb-5" for="first"
+                >First Name</label
+              >
+              <input
+                class="b-none p-10 b-rad-6 d-block w-full b-ccc"
+                type="text"
+                id="first"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="mb-15">
+              <label class="fs-14 c-grey d-block mb-5" for="last"
+                >Last Name</label
+              >
+              <input
+                class="b-none p-10 b-rad-6 d-block w-full b-ccc"
+                type="text"
+                id="last"
+                placeholder="Last Name"
+              />
+            </div>
+            <div>
+              <label class="fs-14 c-grey d-block mb-5" for="email">Email</label>
+              <input
+                class="email b-none p-10 b-rad-6 d-block w-full b-ccc"
+                type="email"
+                id="email"
+                value="o@nn.sa"
+                disabled
+              />
+              <a class="c-blue" href="#">Change</a>
+            </div>
+          </div>
+          <!-- /End Settings Box -->
+          <!-- Start Settings Box ................................-->
+          <div class="p-20 bg-white b-rad-10">
+            <h2 class="mt-0 mb-10">Security Info</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              Security Information About Your Account
+            </p>
+            <div class="sec-box mb-15 between-flex">
+              <div>
+                <span>Password</span>
+                <p class="c-grey mt-5 mb-0 fs-13">Last Change On 25/10/2021</p>
+              </div>
+              <a class="button bg-blue c-white btn-shape" href="#">Change</a>
+            </div>
+            <!-- /sec-box -->
+            <div class="sec-box mb-15 between-flex">
+              <div>
+                <span>Two-Factor Authentication</span>
+                <p class="c-grey mt-5 mb-0 fs-13">Enable/Disable The Feature</p>
+              </div>
+              <label>
+                <input class="toggle-checkbox" type="checkbox" checked />
+                <div class="toggle-switch"></div>
+              </label>
+            </div>
+            <!-- /sec-box -->
+            <div class="sec-box mb-15 between-flex">
+              <div>
+                <span>Devices</span>
+                <p class="c-grey mt-5 mb-0 fs-13">Check The Login Devices List</p>
+              </div>
+              <a class="bg-eee c-black btn-shape" href="#">Devices</a>
+            </div>
+            <!-- /sec-box -->
           </div>
           <!-- /End Settings Box -->
         </div>

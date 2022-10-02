@@ -185,6 +185,12 @@
 .b-none {
   border: none;
 }
+.b-ccc {
+  border: 1px solid #ccc;
+}
+.b-ccc {
+  border: 1px solid #ccc;
+}
 .b-rad-6 {
   border-radius: 6px;
 }

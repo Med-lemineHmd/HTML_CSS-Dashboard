@@ -542,6 +542,74 @@ ul {
   display: inline-flex;
   width: calc(100% - 80px);
 }
+.settings-page .sec-box {
+  padding-bottom: 15px;
+}
+.settings-page .sec-box:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+.settings-page .social-boxes i {
+  width: 40px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  transition: 0.3s;
+}
+.settings-page .social-boxes input {
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+  border-radius: 0 6px 6px 0;
+}
+.settings-page .social-boxes > div:focus-within i {
+  color: #000;
+}
+.widgets-cotrol .control input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.widgets-cotrol .control label {
+  padding-left: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.widgets-cotrol .control label::before,
+.widgets-cotrol .control label::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  border-radius: 4px;
+}
+.widgets-cotrol .control label::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--grey-color);
+  margin-top: -9px;
+}
+.widgets-cotrol .control label:hover::before {
+  border-color: var(--blue-alt-color);
+}
+.widgets-cotrol .control label::after {
+  font: var(--fa-font-solid);
+  content: "\f00c";
+  margin-top: -9px;
+  background-color: var(--blue-color);
+  color: #fff;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  transform: scale(0) rotate(360deg);
+  transition: 0.3s;
+}
+.widgets-cotrol .control input[type="checkbox"]:checked + label::after {
+  transform: scale(1);
+}
 .toggle-checkbox {
   -webkit-appearance: none;
   appearance: none;

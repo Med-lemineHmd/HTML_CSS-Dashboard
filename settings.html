@@ -29,19 +29,19 @@
         <h3 class="p-relative txt-c mt-0">MO</h3>
         <ul>
           <li>
-            <a
-              href="#"
-              class="d-flex align-center fs-14 c-black b-rad-6 p-10"
-            >
+            <a href="index.html" class="d-flex align-center fs-14 c-black b-rad-6 p-10">
               <i class="fa-regular fa-chart-bar fa-fw"></i>
               <span class="fs-14 hide-mobile">Dashboard</span>
             </a>
           </li>
           <!-- /li -->
           <li>
-            <a href="#" class="d-flex align-center fs-14 c-black b-rad-6 p-10">
+            <a
+              href="#"
+              class="active d-flex align-center fs-14 c-black b-rad-6 p-10"
+            >
               <i class="fa-solid fa-gear fa-fw"></i>
-              <span class="active fs-14 hide-mobile">Settings</span>
+              <span class="fs-14 hide-mobile">Settings</span>
             </a>
           </li>
           <!-- /li -->
@@ -106,11 +106,32 @@
         </div>
         <!-- /End head -->
         <h1 class="p-relative">Settings</h1>
-        <div class="settings-page">
-            <label>
+        <div class="settings-page m-20 d-grid gap-20">
+          <!-- <label>
                 <input class="toggle-checkbox" type="checkbox" checked>
                 <div class="toggle-switch"></div>
-            </label>
+            </label> -->
+          <!-- Start Settings Box ................................-->
+          <div class="p-20 bg-white b-rad-10">
+            <h2 class="mt-0 mb-10">Cite Control</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">
+              Control The Website If There Is Maintenance
+            </p>
+            <div class="mb-15 between-flex">
+              <div>
+                <span>Website Control</span>
+                <p class="c-grey mt-5 mb-0 fs-13">Open/Close Website And Type The Reason</p>
+              </div>
+              <div>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+            </div>
+            <textarea class="close-message b-none p-10 b-rad-6 d-block w-full" placeholder="Close Message Content"></textarea>
+          </div>
+          <!-- /End Settings Box -->
         </div>
       </div>
       <!-- /Content ************************************************************************************-->

@@ -55,6 +55,9 @@
 .pb-15 {
   padding-bottom: 15px;
 }
+.pl-15 {
+  padding-left: 15px;
+}
 .m-0 {
   margin: 0;
 }
@@ -70,6 +73,9 @@
 .mt-10 {
   margin-top: 10px;
 }
+.mt-15 {
+  margin-top: 15px;
+}
 .mt-20 {
   margin-top: 20px;
 }
@@ -79,6 +85,9 @@
 .mr-10 {
   margin-right: 10px;
 }
+.mr-15 {
+  margin-right: 15px;
+}
 .mb-5 {
   margin-bottom: 5px;
 }
@@ -87,6 +96,9 @@
 }
 .mb-20 {
   margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
 }
 /* End Padding + Margin */
 /* Start Color ..............................................*/
@@ -104,6 +116,9 @@
 }
 .bg-green {
   background-color: var(--green-color);
+}
+.bg-red {
+  background-color: var(--red-color);
 }
 .c-black {
   color: #000;
@@ -166,6 +181,9 @@
 }
 .b-rad-10 {
   border-radius: 10px;
+}
+.b-rad-half {
+  border-radius: 50%;
 }
 /* End Border */
 /* Width ..............................................*/

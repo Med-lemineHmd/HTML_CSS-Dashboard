@@ -308,7 +308,8 @@ ul {
 /* Staart Latest News ..........*/
 .latest-news .news-row:not(:last-of-type) {
   margin-bottom: 20px;
-  padding-bottom: 20px;border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 .latest-news .news-row img {
   width: 100px;
@@ -332,4 +333,28 @@ ul {
   }
 }
 /* End Latest news */
+/* Start Tasks .........*/
+.tasks .task-row:not(:last-of-type) {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+.tasks .info {
+  flex-grow: 1;
+}
+.tasks .done {
+  opacity: 0.3;
+}
+.tasks .done h3,
+.tasks .done p {
+  text-decoration: line-through;
+}
+.tasks .delete {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.tasks .delete:hover {
+  color: var(--red-color);
+}
+/* End Tasks */
 /* End Content */

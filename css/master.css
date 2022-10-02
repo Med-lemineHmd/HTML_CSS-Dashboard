@@ -420,6 +420,20 @@ ul {
   border-left: 2px solid var(--red-color);
 }
 /* End Reminders */
+/* Start Latest Post ................*/
+.latest-post .avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.latest-post .post-content {
+  text-transform: capitalize;
+  line-height: 1.8;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  min-height: 140px;
+}
+/* End Latest Post */
 /* Start Animation ...........*/
 @keyframes change-color {
   from {

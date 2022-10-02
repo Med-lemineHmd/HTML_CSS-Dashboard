@@ -200,6 +200,11 @@
   width: fit-content;
 }
 /* End width */
+/* Height ..........................................*/
+.h-full {
+  height: 100%;
+}
+/* End Height */
 /* Start Components */
 .center-flex {
   display: flex;

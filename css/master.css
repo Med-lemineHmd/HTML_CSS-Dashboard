@@ -743,6 +743,21 @@ ul {
   background-color: var(--blue-color);
   border-radius: 6px;
 }
+.profile-page .info-box .box {
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+  transition: 0.3s;
+}
+.profile-page .info-box .box:hover {
+  background-color: #f9f9f9;
+}
+.profile-page .info-box .box > div {
+  padding: 10px 0 0;
+  min-width: 250px;
+}
+.profile-page .info-box .box h4 {
+  font-weight: normal;
+}
 /* End Profile Page */
 /* Start Animation ...........*/
 @keyframes change-color {
